@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+}
+.player-banner {
+    max-width:100%;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.jason-screen {
+    margin-left: 260px;
+    display: block;
+}
+.jason-health {
+    margin-left: 260px;
+    display: block;
+}
+.row {
+    font-size: 100px;
+}
+

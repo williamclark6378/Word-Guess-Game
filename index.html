@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Word Guess Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" media="screen"/>
+    <script src="./assets/javascript/game.js"></script>
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-lg-12">
+            <!--first row with one large image banner across-->
+            <img src="./assets/images/player-banner2.jpg" alt="Player Info" class="player-banner">    
+            </div>
+            
+        </div>
+
+    <div class="row">
+        <div class="col-lg-7">
+        <!--large column with main Jason game image; image will change with win or loss-->
+        <!--sound effect will play based on win or loss-->
+        <img src="./assets/images/jason-screen1.jpg" alt="Jason Screen" class="jason-screen">       
+        </div>
+        <div class="col-lg-5">
+        <!--9 rows for text, numbers, input, etc.-->
+            <div class="row">
+                <h3>Press Any Key To Begin</h3>
+            </div>
+            <div class="row">
+                <h3>Survival:</h3>
+            </div>
+            <div class="row-win">
+                <!--number of wins will appear here-->
+
+            </div>
+            <div class="row">
+                <h3>Current Word:</h3>
+            </div>
+            <div class="row">
+                <!--underlines and letter reveal will go here-->
+            
+            </div>
+            <div class="row">
+                <h3>Chances Remaining:</h3>
+            </div>
+            <div class="row-guesses">
+                <!--number of guesses left will go here-->
+            
+            </div>
+            <div class="row">
+                <h3>Chances Taken:</h3>
+            </div>
+            <div class="row">
+                <!--underlines and letters guessed will go here-->
+                <!--when guessing incorrectly, sound effect will play-->
+            </div>       
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-4">
+            <!--small column to display Jason health image--> 
+            <img src="./assets/images/jason-health2.jpg" alt="Jason Health" class="jason-health">  
+        </div>
+        <div class="col-lg-8">
+            <!--underlined letter display here for "Chances Taken"-->        
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-8">
+        <!--underlined display here for current word-->
+        
+        </div>
+        <div class="col-lg-4">
+        <!--space here for "Chances Remaining"-->    
+        </div>
+    </div>    
+    
+</body>
+
+</html>
